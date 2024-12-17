@@ -1,0 +1,5 @@
+<resources>
+    <string name="cesta_de_frutas">Cestas de frutas</string>
+    <string name="descricao_frutas">Laranja, manga e maçã</string>
+    <string name="valor_frutas">19.99</string>
+</resources>
