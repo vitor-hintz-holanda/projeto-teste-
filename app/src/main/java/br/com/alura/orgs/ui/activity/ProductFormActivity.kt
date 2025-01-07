@@ -1,7 +1,6 @@
 package br.com.alura.orgs.ui.activity
 
 import  br.com.alura.orgs.R
-
 import android.os.Bundle
 import android.util.Log
 import android.widget.Button
@@ -9,8 +8,7 @@ import android.widget.EditText
 import androidx.appcompat.app.AppCompatActivity
 import java.math.BigDecimal
 
-class ProductFormActivity :
-    AppCompatActivity(R.layout.activity_product_form) {
+class ProductFormActivity : AppCompatActivity(R.layout.activity_product_form) {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -34,10 +32,7 @@ class ProductFormActivity :
                 description = descricao,
                 value = valor
             )
-
-
             Log.i("ProductForm", " onCreate: $productNew")
         }
     }
-
 }
